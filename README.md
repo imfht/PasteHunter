@@ -18,6 +18,7 @@ Pastehunter supports several output modules:
  - email sending over SMTP
  - dump to JSON file
  - dump to CSV file
+ - send to telegram channel
 
 ### SMTP
 Multiple recipients can be specified, with different rulesets each.
@@ -28,6 +29,12 @@ You need to set SMTP_SECURITY in the config file to one of the following options
  - 'none'
 
  Refer to your email provider to determine which you require.
+
+### Telegram Channel
+You'll need a telegram bot, follow [https://core.telegram.org/bots](https://core.telegram.org/bots), you'll need to fill
+- 'token'
+- 'chat_id'
+You will do some work to find the chat_id.
 
 ## PostProcess Modules
 Pastehunter comes with a couple of post process modules that extact useful data from pastes or pass them to other services
