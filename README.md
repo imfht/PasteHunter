@@ -34,7 +34,8 @@ You need to set SMTP_SECURITY in the config file to one of the following options
 You'll need a telegram bot, follow [https://core.telegram.org/bots](https://core.telegram.org/bots), you'll need to fill
 - 'token'
 - 'chat_id'
-You will do some work to find the chat_id.
+you can visit [this link](https://github.com/GabrielRF/telegram-id) to finger out how to find your chat id.
+A live channel is at [https://t.me/data_leak](https://t.me/data_leak)
 
 ## PostProcess Modules
 Pastehunter comes with a couple of post process modules that extact useful data from pastes or pass them to other services
