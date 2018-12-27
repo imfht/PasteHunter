@@ -32,9 +32,10 @@ You need to set SMTP_SECURITY in the config file to one of the following options
 
 ### Telegram Channel
 You'll need a telegram bot, follow [https://core.telegram.org/bots](https://core.telegram.org/bots), you'll need to fill
-- 'token'
-- 'chat_id'
-you can visit [this link](https://github.com/GabrielRF/telegram-id) to finger out how to find your chat id.
+- 'token' (visit [this link](https://core.telegram.org/bots/api) to get a bot token)
+- 'chat_id' (visit [this link](https://github.com/GabrielRF/telegram-id) to finger out how to find your chat id.)
+
+
 A live channel is at [https://t.me/data_leak](https://t.me/data_leak)
 
 ## PostProcess Modules
