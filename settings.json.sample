@@ -64,6 +64,13 @@
       "store_raw": true,
       "encode_raw": true
     },
+    "mongo_output": {
+      "enabled": false,
+      "module": "outputs.mongo_output",
+      "classname": "MongoOutput",
+      "store_raw": true,
+      "encode_raw": true
+    },
     "csv_output": {
       "enabled": false,
       "module": "outputs.csv_output",
