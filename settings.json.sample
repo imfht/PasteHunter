@@ -64,6 +64,17 @@
       "store_raw": true,
       "encode_raw": true
     },
+    "mysql_output": {
+      "enabled": false,
+      "module": "outputs.mysql_output",
+      "classname": "MysqlOutput",
+      "output_path": "logs/json/",
+      "mysql_host": "127.0.0.1",
+      "mysql_port": 3306,
+      "mysql_user": "root",
+      "mysql_pass": "your password"
+      "mysql_db": "pasteHunter",
+    },
     "csv_output": {
       "enabled": false,
       "module": "outputs.csv_output",
