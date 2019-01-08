@@ -17,3 +17,4 @@ class MongoOutput:
         if not config['outputs']['json_output']['store_raw']:
             del paste_data['raw_paste']
         self.mongo_cli['data'].insert_one(paste_data)
+        del paste_data['_id']  # insert_one will add a _id here.
